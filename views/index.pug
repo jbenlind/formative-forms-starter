@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+    table
+        h2
+            thead
+                tr
+                    th id
+                    th First Name
+                    th Last Name
+                    th Email
+                    th Age
+                    th Favorite Beatle
+                    th Likes Ice Cream
+            tbody
+                tr
+                    td= users.id
+                    td= users.firstName
+                    td= users.lastName
+                    td= users.email
+                    td
+                    td
+                    td
