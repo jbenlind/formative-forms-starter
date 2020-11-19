@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "debug": "nodemon --inspect index.js",
-    "test": "PORT=3001 mocha test --exit",
+    "test": "PORT=3001 mocha test --exit --timeout 10000",
     "test-with-json": "PORT=3001 mocha test --reporter json --exit"
   },
   "keywords": [],
